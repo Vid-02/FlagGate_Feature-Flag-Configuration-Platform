@@ -22,10 +22,10 @@ runtime without redeploying services. Common requirements include:
 
 A feature flag platform must therefore be:
 
-- **Fast** — evaluated synchronously on the request path
-- **Highly available** — resilient to partial system failures
-- **Deterministic** — stable results for the same inputs
-- **Operationally safe** — reliable propagation and convergence of changes
+- **Fast** - evaluated synchronously on the request path
+- **Highly available** - resilient to partial system failures
+- **Deterministic** - stable results for the same inputs
+- **Operationally safe** - reliable propagation and convergence of changes
 
 FlagGate addresses these requirements through a deliberately scoped but
 architecturally robust backend design.
@@ -242,5 +242,6 @@ FlagGate reflects how large-scale backend platforms evolve safely over time.
 Developed by **Vidhi Babariya**  
 As a focused exploration of backend systems, event-driven architectures,
 and scalable service design.
+
 
 
