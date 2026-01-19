@@ -107,8 +107,9 @@ Configuration changes are propagated using Kafka to ensure that:
 
 ---
 
-## Repo Structure
+## Repository Structure
 
+```
 .
 ├── docs/
 │   └── ARCHITECTURE.md            # Detailed system design, data flows, and tradeoffs
@@ -163,7 +164,7 @@ Configuration changes are propagated using Kafka to ensure that:
 ├── gradlew                         # Gradle wrapper (Unix)
 ├── gradlew.bat                     # Gradle wrapper (Windows)
 └── README.md
-
+```
 ---
 
 ## Data Flow Summary
@@ -241,4 +242,5 @@ FlagGate reflects how large-scale backend platforms evolve safely over time.
 Developed by **Vidhi Babariya**  
 As a focused exploration of backend systems, event-driven architectures,
 and scalable service design.
+
 
